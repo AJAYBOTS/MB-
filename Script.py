@@ -468,7 +468,7 @@ $$$$$$$     $$$$$$$by$TL$
 # dont remove my logo 
     PAID_TXT = """<b>Join a Prime group to get free movie without any ads
 Your time is valuable, Stop watching ads and simply avoid the stupidity
-<a href='https://telegram.me/Kabali_Uploads'>➹ 𝐀𝐃 𝐅𝐫𝐞𝐞 𝐆𝐫𝐨𝐮𝐩 ➹</a>
+<a href='https://telegram.me/SVNH_MOVIES'>➹ 𝐀𝐃 𝐅𝐫𝐞𝐞 𝐆𝐫𝐨𝐮𝐩 ➹</a>
 
 Prime Membership Progress
 
