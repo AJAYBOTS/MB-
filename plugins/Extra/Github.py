@@ -8,7 +8,7 @@ from pyrogram import filters, enums
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram import Client, filters
 
-BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('✨ Made By ✨', url='https://t.me/Kabali_Uploads')]])
+BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('✨ Made By ✨', url='https://t.me/SVNH_MOVIES')]])
 A = """{} with user id:- {} used /git command."""
 
 @Client.on_message(filters.command(["github", "git"]))
