@@ -208,7 +208,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 🚯 𝐃𝐨𝐧𝐭 𝐔𝐬𝐞 ☞ ':(!,./)"""
 
-NORSLTS = """ 
+    NORSLTS = """ 
 ★ #𝗡𝗼𝗥𝗲𝘀𝘂𝗹𝘁𝘀 ★
 
 𝗜𝗗 <b>: {}</b>
@@ -218,11 +218,11 @@ NORSLTS = """
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
 
-CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
+    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
 
 <b> Size ⚙️: {file_size}</b>"""
     
-IMDB_TEMPLATE_TXT = """
+    IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
 
 IMDb Data:
