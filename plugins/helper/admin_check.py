@@ -1,4 +1,4 @@
-# thanks me later Farooq_is_KING
+# thanks me later SIVANTH
 from pyrogram.types import Message
 from pyrogram import filters, enums 
 
