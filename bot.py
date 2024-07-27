@@ -49,7 +49,7 @@ loop = asyncio.get_event_loop()
 
 async def Opleech_start():
     print('\n')
-    print('Initalizing Opleech AngelBot')
+    print('Initalizing Opleech Bot')
     bot_info = await OpleechAngelBot.get_me()
     OpleechAngelBot.username = bot_info.username
     await initialize_clients()
