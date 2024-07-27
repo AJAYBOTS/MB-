@@ -49,8 +49,8 @@ loop = asyncio.get_event_loop()
 
 async def Opleech_start():
     print('\n')
-    print('Initalizing Opleech Bot')
-    bot_info = await OpleechAngelBot.get_me()
+    print('Initalizing MB ONLINE BOT')
+    bot_info = await MbonlineBot.get_me()
     OpleechAngelBot.username = bot_info.username
     await initialize_clients()
     for name in files:
