@@ -78,8 +78,8 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
     await message.reply_text(
-         text=f"<b>ʜᴇʏ {user} 😍 ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ɪᴛ ɪɴ ᴏᴜʀ <a href=https://t.me/+vattZljTfNo1NzU1>SVNH_MOVIES</a> ᴏʀ ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ⟱</b>",   
-         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/+vattZljTfNo1NzU1")]])
+         text=f"<b>ʜᴇʏ {user} 😍 ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ɪᴛ ɪɴ ᴏᴜʀ <a href=https://t.me/+QwkxkQrZ9r85Njdl>HIBOMMA</a> ᴏʀ ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ⟱</b>",   
+         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/+QwkxkQrZ9r85Njdl")]])
     )
     await bot.send_message(
         chat_id=LOG_CHANNEL,
@@ -1220,7 +1220,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('𝐉𝐨𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=link.invite_link),
                  InlineKeyboardButton("𝐕𝐢𝐞𝐰 𝐒𝐭𝐚𝐭𝐮𝐬", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("𝐑𝐞𝐪𝐮𝐬𝐭 𝐆𝐫𝐨𝐮𝐩 𝐋𝐢𝐧𝐤", url="https://t.me/+vattZljTfNo1NzU1")
+                 InlineKeyboardButton("𝐑𝐞𝐪𝐮𝐬𝐭 𝐆𝐫𝐨𝐮𝐩 𝐋𝐢𝐧𝐤", url="https://t.me/+QwkxkQrZ9r85Njdl")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1307,15 +1307,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 text=f"••𝐋𝐢𝐧𝐤 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐅𝐨𝐫 𝐈𝐃 #{user_id} \n••𝐔𝐬𝐞𝐫𝐧𝐚𝐦𝐞 ◉ {username} \n\n••𝐅𝐢𝐥𝐞 𝐍𝐚𝐦𝐞 ◉ {fileName}",
                 quote=True,
                 disable_web_page_preview=True,
-                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("⚡️𝐅𝐚𝐬𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝", url=Opleech_download),  # we download Link
-                                                    InlineKeyboardButton('ᢰ 𝐖𝐚𝐭𝐜𝐡 𝐎𝐧𝐥𝐢𝐧𝐞', url=Opleech_stream)]])  # web stream Link
+                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("⚡️𝐅𝐚𝐬𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝", url=HIBOMMA_DOWNLOAD),  # we download Link
+                                                    InlineKeyboardButton('ᢰ 𝐖𝐚𝐭𝐜𝐡 𝐎𝐧𝐥𝐢𝐧𝐞', url=HIBOMMA_STREAM)]])  # web stream Link
             )
             await query.message.reply_text(
                 text="••𝐋𝐢𝐧𝐤 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 🦋",
                 quote=True,
                 disable_web_page_preview=True,
-                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("⚡️ 𝐅𝐚𝐬𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝", url=Opleech_download),  # we download Link
-                                                    InlineKeyboardButton('ᢰ 𝐖𝐚𝐭𝐜𝐡 𝐎𝐧𝐥𝐢𝐧𝐞', url=Opleech_stream)]])  # web stream Link
+                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("⚡️ 𝐅𝐚𝐬𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝", url=HIBOMMA_DOWNLOAD),  # we download Link
+                                                    InlineKeyboardButton('ᢰ 𝐖𝐚𝐭𝐜𝐡 𝐎𝐧𝐥𝐢𝐧𝐞', url=HIBOMMA_STREAM)]]), # web stream Link
             )
         except Exception as e:
             print(e)  # print the error message
@@ -1337,7 +1337,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('✜ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ✜', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('😎 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 😎', url=CHNL_LNK),
-                    InlineKeyboardButton('◆ 𝐌𝐨𝐯𝐢𝐞 𝐆𝐫𝐨𝐮𝐩 ◆', url="https://t.me/+vattZljTfNo1NzU1")
+                    InlineKeyboardButton('◆ 𝐌𝐨𝐯𝐢𝐞 𝐆𝐫𝐨𝐮𝐩 ◆', url="https://t.me/+QwkxkQrZ9r85Njdl")
                 ],[
                     InlineKeyboardButton('◆𝐇𝐞𝐥𝐩', callback_data='help'),
                     InlineKeyboardButton('◆ 𝐀𝐛𝐨𝐮𝐭', callback_data='about') 
@@ -1725,7 +1725,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "song":
             btn = [[
                     InlineKeyboardButton("⫷◆𝐁𝐚𝐜𝐤", callback_data="help"),
-                    InlineKeyboardButton("𝐂𝐨𝐧𝐭𝐚𝐜𝐭", url="t.me/SVNH_MOVIES")
+                    InlineKeyboardButton("𝐂𝐨𝐧𝐭𝐚𝐜𝐭", url="t.me/HIBOMMA")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -1766,7 +1766,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "sticker":
             btn = [[
                     InlineKeyboardButton("⫷◆𝐁𝐚𝐜𝐤", callback_data="help"),
-                    InlineKeyboardButton("𝐂𝐨𝐧𝐭𝐚𝐜𝐭", url="t.me/SVNH_MOVIES")
+                    InlineKeyboardButton("𝐂𝐨𝐧𝐭𝐚𝐜𝐭", url="t.me/HIBOMMA")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
