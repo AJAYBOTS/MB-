@@ -25,8 +25,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('✜ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ✜', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('❈ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩', url="https://t.me/+oT1xM_UDZPgxM2U1"),
-                    InlineKeyboardButton('🔗 𝐢𝐧𝐯𝐢𝐭𝐞 𝐥𝐢𝐧𝐤 🔗', url="https://t.me/SVNH_MOVIES")
+                    InlineKeyboardButton('❈ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩', url="https://t.me/+QwkxkQrZ9r85Njdl"),
+                    InlineKeyboardButton('🔗 𝐢𝐧𝐯𝐢𝐭𝐞 𝐥𝐢𝐧𝐤 🔗', url="https://t.me/HIBOMMA")
                 ],[
                     InlineKeyboardButton('〶𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥〶', url=CHNL_LNK)
                   ]]
@@ -46,7 +46,7 @@ async def start(client, message):
                     InlineKeyboardButton('✜ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ✜', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('🦋 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🦋', url=CHNL_LNK),
-                    InlineKeyboardButton('🔗 𝐢𝐧𝐯𝐢𝐭𝐞 𝐥𝐢𝐧𝐤 🔗', url="https://t.me/SVNH_MOVIES")
+                    InlineKeyboardButton('🔗 𝐢𝐧𝐯𝐢𝐭𝐞 𝐥𝐢𝐧𝐤 🔗', url="https://t.me/HIBOMMA")
                 ],[
                     InlineKeyboardButton('◆𝐇𝐞𝐥𝐩', callback_data='help'),
                     InlineKeyboardButton('◆ 𝐀𝐛𝐨𝐮𝐭', callback_data='about')
@@ -98,7 +98,7 @@ async def start(client, message):
                     InlineKeyboardButton('✜ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ✜ ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('🦋 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🦋', url=CHNL_LNK),
-                    InlineKeyboardButton('🔗 𝐢𝐧𝐯𝐢𝐭𝐞 𝐥𝐢𝐧𝐤 🔗', url="https://t.me/SVNH_MOVIES")
+                    InlineKeyboardButton('🔗 𝐢𝐧𝐯𝐢𝐭𝐞 𝐥𝐢𝐧𝐤 🔗', url="https://t.me/HIBOMMA")
                 ],[
                     InlineKeyboardButton('◆𝐇𝐞𝐥𝐩', callback_data='help'),
                     InlineKeyboardButton('◆ 𝐀𝐛𝐨𝐮𝐭', callback_data='about')
@@ -156,7 +156,7 @@ async def start(client, message):
                                 InlineKeyboardButton('𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩', url=f'https://t.me/{SUPPORT_CHAT}'),
                                 InlineKeyboardButton('𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=CHNL_LNK)
                             ],[
-                                InlineKeyboardButton('𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫', url="https://t.me/SVNH_MOVIES")
+                                InlineKeyboardButton('𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫', url="https://t.me/HIBOMMA")
                             ],
                             [
                                 InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @Opleech
@@ -178,7 +178,7 @@ async def start(client, message):
                           InlineKeyboardButton('𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩', url=f'https://t.me/{SUPPORT_CHAT}'),
                           InlineKeyboardButton('𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=CHNL_LNK)
                        ],[
-                          InlineKeyboardButton("𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫", url="https://t.me/SVNH_MOVIES")
+                          InlineKeyboardButton("𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫", url="https://t.me/HIBOMMA")
                          ],[ 
                             InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @Opleech
                             ]
@@ -315,7 +315,7 @@ async def start(client, message):
                     logger.exception(e)
                     f_caption=f_caption
             if f_caption is None:
-                f_caption = f"{'@SVNH_MOVIES '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files1.file_name.split()))}"
+                f_caption = f"{'@HIBOMMA '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files1.file_name.split()))}"
             if not await check_verification(client, message.from_user.id) and VERIFY == True:
                 btn = [[
                     InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
@@ -337,7 +337,7 @@ async def start(client, message):
                       InlineKeyboardButton('𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩', url=f'https://t.me/{SUPPORT_CHAT}'),
                       InlineKeyboardButton('𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=CHNL_LNK)
                    ],[
-                      InlineKeyboardButton("𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫", url="https://t.me/SVNH_MOVIES")
+                      InlineKeyboardButton("𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫", url="https://t.me/HIBOMMA")
                      ],
                      [
                         InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @Opleech
@@ -403,7 +403,7 @@ async def start(client, message):
                       InlineKeyboardButton('𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩', url=f'https://t.me/{SUPPORT_CHAT}'),
                       InlineKeyboardButton('𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=CHNL_LNK)
                    ],[
-                      InlineKeyboardButton("𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫", url="https://t.me/SVNH_MOVIES")
+                      InlineKeyboardButton("𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫", url="https://t.me/HIBOMMA")
                      ],
                      [
                         InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @Opleech
@@ -466,7 +466,7 @@ async def start(client, message):
               InlineKeyboardButton('𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩', url=f'https://t.me/{SUPPORT_CHAT}'),
               InlineKeyboardButton('𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url=CHNL_LNK)
            ],[
-              InlineKeyboardButton("𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫", url="https://t.me/SVNH_MOVIES")
+              InlineKeyboardButton("𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫", url="https://t.me/HIBOMMA")
              ],
              [
               InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @Opleech
